@@ -9,21 +9,17 @@ class BannerApp extends React.Component {
   }
 
   render() {
-    return (<div className="banner">
+    return (<div className="container"><div className="banner">
       <Banner
           logo= 'campaang'
           url={ window.location.pathname }
           items={[
-              { "content": "Near me", "url": "/example" },
-              { "content": "About", "url": "/another" },
-              { "content": "Login", "url": "/another" },
-              { "content": "Sign up", "url": "/another" },
-              { "content": "Start hosting", "url": "/children"},
-              {
-                "title": "hello",
-                "url": 'https://github.com'
-            }
-          ]} /></div>
+              { "content": "Near me", "url": "/1" },
+              { "content": "About", "url": "/2" },
+              { "content": "Login", "url": "/3" },
+              { "content": "Sign up", "url": "/4" },
+              { "content": "Start hosting", "url": "/5"}
+          ]} /></div></div>
   )
   }
 }

@@ -108,17 +108,19 @@ img {
       display: none;
   }
 }
+.container {
+  margin: 0 0.5em;
+}
 .banner {
   position: relative;
   background: white;
-  display: inline;
 }
 
 .banner__inner {
   display: flex;
   width: 100%;
   min-width: 320px;
-  max-width: 960px;
+  max-width: 1450px;
   min-height: 70px;
   margin: 0 auto;
   padding: 0 1.5em;
